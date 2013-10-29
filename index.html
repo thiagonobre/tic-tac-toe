@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Jogo da Velha - por Thiago Nobre</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+	
+	<div id="all">
+		<div class="wrapper">
+			<h1>Jogo da velha - por Thiago Nobre</h1>
+			<div class="iniciar">
+				<h2>Quem começa?</h2>
+				<div><a href="./">Você</a> | <a href="?computerStart=1">Computador</a></div>
+			</div>
+			<div class="infos">
+				<ul>
+					<li class="left">Você: <strong>X</strong></li>
+					<li class="right">Computador: <strong>O</strong></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="tabuleiro">
+				<table>
+					<tr>
+						<td class="noBdTop noBdLeft"><a href="javascript:void(0)"></a></td>
+						<td class="noBdTop"><a href="javascript:void(0)"></a></td>
+						<td class="noBdTop noBdRight"><a href="javascript:void(0)"></a></td>
+					</tr>
+					<tr>
+						<td class="noBdLeft"><a href="javascript:void(0)"></a></td>
+						<td><a href="javascript:void(0)"></a></td>
+						<td class="noBdRight"><a href="javascript:void(0)"></a></td>
+					</tr>
+					<tr>
+						<td class="noBdBottom noBdLeft"><a href="javascript:void(0)"></a></td>
+						<td class="noBdBottom"><a href="javascript:void(0)"></a></td>
+						<td class="noBdBottom noBdRight"><a href="javascript:void(0)"></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/unserialize.min.js"></script>
+	<script src="js/script.min.js?v3"></script>
+</body>
+</html>

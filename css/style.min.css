@@ -1,0 +1,7 @@
+html,body{display:block;width:100%;height:100%;font:1em Arial,sans-serif}#all{min-height:100%;background:#ccc;position:relative}strong,b{font-weight:bold}
+.left{float:left}.right{float:right}.clear{clear:both}.wrapper{margin:0 auto;width:400px;padding:20px 0 0}.tabuleiro table{margin:0 auto;border-collapse:collapse}
+.tabuleiro table td{border:5px solid #000;text-align:center;vertical-align:middle;font-size:30px;width:100px;height:100px}.tabuleiro table td.noBdTop{border-top:5px solid transparent}
+.tabuleiro table td.noBdLeft{border-left:5px solid transparent}.tabuleiro table td.noBdRight{border-right:5px solid transparent}.tabuleiro table td.noBdBottom{border-bottom:5px solid transparent}
+.tabuleiro table td a{display:block;width:100%;height:100%}.tabuleiro table td a:hover{background:#aaa}.reiniciar{padding:20px 0 0;text-align:center}.infos{padding:10px 0 20px}
+h1{font-weight:bold;font-size:25px;text-align:center}.iniciar{padding:15px 0 10px;text-align:center}.iniciar h2{font-weight:bold;font-size:18px;text-align:center;padding:0 0 5px}
+.iniciar a{color:#333}
